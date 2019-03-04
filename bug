@@ -1,0 +1,20 @@
+<div id="background"></div>
+<div class="start-menu container">
+<div class="jumbotron">
+  <h1>WELCOME TO PIG-DICE GAME.</h1>
+    <form id="userOne">
+      <div class="form-group">
+        <label for="user1">First Player by name:</label>
+        <input required class="user1 form-control" type="text">
+      </div>
+    </form>
+
+    <form id="userTwo">
+      <div class="form-group">
+        <label for="user2">Second Player by name:</label>
+        <input required class="user form-control" type="text">
+      </div>
+    </form>
+    <button id="start" class="btn-info btn-lg">Start</button>
+</div>
+</div>
