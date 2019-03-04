@@ -7,3 +7,6 @@ h1 {
 .playerone, .playertwo {
   display: none;
 }
+#restart {
+  margin-top: 60px;
+}

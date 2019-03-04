@@ -10,6 +10,7 @@
 <div class="jumbotron"><h1><b>WELCOME TO PIG-DICE GAME!!!</b></h1></div>
   </head>
 <body>
+  <div class="container">
   <div id="background"></div>
   <form id="form">
     <div class="form-group">
@@ -18,7 +19,7 @@
     <div class="form-group">
       <input type="text" class="form-control" placeholder="player-two user's name" class="input" id="playerTwo" required>
     </div>
-    <button type="submit" name="button" id="start" class="btn-info btn-lg">START</button>
+    <button type="submit" name="button" id="start" class="btn btn-success btn-lg">START</button>
   </form>
 
   <div class="playerone">
@@ -36,7 +37,8 @@
     <button type="button" name="button" id="roll2" class="btn-info btn-lg">ROLL</button>
     <button type="button" name="button" id="hold2" class="btn-info btn-lg">HOLD</button>
   </div>
-
+  <button id="restart" type="button" name="button" onclick="window.location.reload()" class="btn btn-danger">RESTART</button>
+</div>
 </body>
 
 </html>
