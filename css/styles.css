@@ -18,6 +18,29 @@ h1 {
   left: 0;
   bottom: 0;
   color: white;
-  margin-top: auto;
+  margin-top: fixed;
 
+}
+#header{
+  position:fixed;
+  background-color: #395942;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: white;
+  margin-top: auto;
+}
+img {
+  height: 350px;
+  width: 350px;
+  border-radius: 500px;
+  border: solid blue;
+  transform: rotate(90deg);
+  transition: 1s;
+  margin: auto;
+}
+
+img : hover {
+  transform: rotate(90deg);
 }
