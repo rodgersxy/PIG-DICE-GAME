@@ -6,35 +6,35 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-
     FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <title>TEXT</title
-<div class="jumbotron"><h1><b>WELCOME TO PIG-DICE GAME</b></h1></div>
+    <title>DICE</title
+<div class="jumbotron"><h1><b>WELCOME TO PIG-DICE GAME!!!</b></h1></div>
   </head>
 <body>
   <div id="background"></div>
   <form id="form">
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="player-one user's name" id="playerOne" required>
+      <input type="text" class="form-control" placeholder="player-one user's name" class="input" id="playerOne" required>
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="player-two user's name" id="playerTwo" required>
+      <input type="text" class="form-control" placeholder="player-two user's name" class="input" id="playerTwo" required>
     </div>
     <button type="submit" name="button" id="start" class="btn-info btn-lg">START</button>
   </form>
 
   <div class="playerone">
     <h1 id="mchezo"></h1>
-    <h1>SCORE: <span id="scorer"></span></h1>
+    <h1><b>SCORE:</b> <span id="scorer"></span></h1>
     <p>Dice: <span id="roller"></span>           turn score: <span id="score"></span> </p>
-    <button type="button" name="button" id="roll">ROLL</button>
-    <button type="button" name="button" id="hold">HOLD</button>
+    <button type="button" name="button" id="roll" class="btn-info btn-lg">ROLL</button>
+    <button type="button" name="button" id="hold" class="btn-info btn-lg">HOLD</button>
   </div>
 
   <div class="playertwo">
     <h1 id="mchezo2"></h1>
-    <h1>SCORE: <span id="scorer2"></span> </h1>
-    <p>Dice: <span id="roller2"></span>           turn score: <span id="score2"></span> </p>
-    <button type="button" name="button" id="roll2">ROLL</button>
-    <button type="button" name="button" id="hold2">HOLD</button>
+    <h1><b>SCORE:</b> <span id="scorer2"></span> </h1>
+    <p>Dice: <span id="roller2"></span>           turn score: <span id="score2"></span></p>
+    <button type="button" name="button" id="roll2" class="btn-info btn-lg">ROLL</button>
+    <button type="button" name="button" id="hold2" class="btn-info btn-lg">HOLD</button>
   </div>
 
 </body>

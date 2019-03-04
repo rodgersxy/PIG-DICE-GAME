@@ -16,6 +16,9 @@ playerTwo = $("input#playerTwo").val();
    $(".playerone").show();
      $(".playertwo").show();
 
+
+
+//playerone
   });
   $("#roll").click(function() {
     var dice;
