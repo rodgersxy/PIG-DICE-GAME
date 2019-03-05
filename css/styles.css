@@ -27,7 +27,7 @@ h1 {
   margin-top: fixed;
 
 }
-# header{
+#header{
   position: auto;
   background-color: #395942;
   text-align: center;
@@ -36,9 +36,10 @@ h1 {
   bottom: 0;
   color: white;
   margin-top: fixed;
+  border-radius: 20px;
 
 }
-img {
+img{
   height: 350px;
   width: 350px;
   border-radius: 500px;

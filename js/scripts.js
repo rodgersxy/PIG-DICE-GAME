@@ -47,11 +47,11 @@ playerTwo = $("input#playerTwo").val();
       return total2 += total;
 
     });
+    document.getElementById('scorer').innerHTML = total2;
     $("#roll").hide();
     $("#roll2").show();
     $("#hold").hide();
     $("#hold2").show();
-    // document.getElementById('scorer').innerHTML = total2;
     total = [];
     score = 0;
     document.getElementById('score').innerHTML = score;
@@ -88,12 +88,11 @@ playerTwo = $("input#playerTwo").val();
       return total4 += total;
 
     });
+    document.getElementById('scorer2').innerHTML = total4;
     $("#roll").show();
     $("#roll2").hide();
     $("#hold").show();
     $("#hold2").hide();
-
-    // document.getElementById('scorer2').innerHTML = total4;
     total3 = [];
     score2 = 0;
     document.getElementById('score2').innerHTML = score2;
