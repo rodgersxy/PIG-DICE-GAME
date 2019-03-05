@@ -2,15 +2,32 @@ body {
    background-color: #42f4a7;
 }
 h1 {
-  text-align: center;
+  /* text-align: center; */
 }
 .playerone, .playertwo {
   display: none;
+}
+.playerone {
+  float: left;
+}
+.playertwo {
+  float: right;
 }
 #restart {
   margin-top: 20px;
 }
 .footer {
+  position: fixed;
+  background-color: #395942;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: white;
+  margin-top: fixed;
+
+}
+# header{
   position: auto;
   background-color: #395942;
   text-align: center;
@@ -21,26 +38,26 @@ h1 {
   margin-top: fixed;
 
 }
-#header{
-  position:fixed;
-  background-color: #395942;
-  text-align: center;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  color: white;
-  margin-top: auto;
-}
 img {
   height: 350px;
   width: 350px;
   border-radius: 500px;
   border: solid blue;
-  transform: rotate(90deg);
+  transform: rotate(360deg);
   transition: 1s;
   margin: auto;
 }
 
 img : hover {
-  transform: rotate(90deg);
+  transform: rotate(360deg);
+}
+#roll2, #hold2, .buttons {
+  display: none;
+}
+#restart {
+  text-align: center;
+}
+.buttons {
+  clear: both;
+  text-align: center;
 }

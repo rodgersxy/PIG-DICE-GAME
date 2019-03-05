@@ -11,10 +11,12 @@ $(document).ready(function(){
     event.preventDefault();
  playerOne = $("input#playerOne").val();
 playerTwo = $("input#playerTwo").val();
- $("#mchezo").append(playerOne);
-  $("#mchezo2").append(playerTwo);
+ $("#head").append(playerOne);
+  $("#head2").append(playerTwo);
    $(".playerone").show();
      $(".playertwo").show();
+     $("#form").hide();
+     $(".buttons").show();
 
 
 
@@ -32,6 +34,10 @@ playerTwo = $("input#playerTwo").val();
     if (dice == 1) {
       total = [];
       score = 0;
+      $("#roll").hide();
+      $("#roll2").show();
+      $("#hold").hide();
+      $("#hold2").show();
     } else {
       total.push(dice);
     }
@@ -41,8 +47,11 @@ playerTwo = $("input#playerTwo").val();
       return total2 += total;
 
     });
-
-    document.getElementById('scorer').innerHTML = total2;
+    $("#roll").hide();
+    $("#roll2").show();
+    $("#hold").hide();
+    $("#hold2").show();
+    // document.getElementById('scorer').innerHTML = total2;
     total = [];
     score = 0;
     document.getElementById('score').innerHTML = score;
@@ -56,12 +65,20 @@ playerTwo = $("input#playerTwo").val();
     document.getElementById('roller2').innerHTML = dice;
     score+=dice;
     document.getElementById('score2').innerHTML = score;
+    $("#roll2").show();
+    $("#roll").hide();
+    $("#hold2").show();
+    $("#hold").hide();
 
 
 
     if (dice == 1) {
       total3 = [];
-      score = 0;
+      score2 = 0;
+      $("#roll").show();
+      $("#roll2").hide();
+      $("#hold").show();
+      $("#hold2").hide();
     } else {
       total3.push(dice);
     }
@@ -71,11 +88,15 @@ playerTwo = $("input#playerTwo").val();
       return total4 += total;
 
     });
+    $("#roll").show();
+    $("#roll2").hide();
+    $("#hold").show();
+    $("#hold2").hide();
 
-    document.getElementById('scorer2').innerHTML = total4;
+    // document.getElementById('scorer2').innerHTML = total4;
     total3 = [];
-    score = 0;
-    document.getElementById('score').innerHTML = score;
+    score2 = 0;
+    document.getElementById('score2').innerHTML = score2;
   });
 
 });
