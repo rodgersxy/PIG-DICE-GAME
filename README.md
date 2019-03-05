@@ -15,5 +15,5 @@ i used HTML,CSS,JavaScript to develop my PIG-DICE GAME.
 ## Support and contact details
 for ideas and to better the game reach me through my email: rodgersny99@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{MIT and GPL.}*
 Copyright (c) {2018} **{Rodegrs nyakundi}**
