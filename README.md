@@ -1,9 +1,9 @@
 # RODGERS NYAKUNDI
 # PIG-DICE GAME
 #### This is pig dice game involving two players, Monday 5th March 2019.
-#### By **{List of contributors}**
+#### By **{Rodgers Nyakundi}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This game is designed to involve two players. It should be fun. Then theirs control section:START,HOLD and RESTART.
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
